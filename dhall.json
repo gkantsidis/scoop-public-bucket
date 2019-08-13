@@ -1,0 +1,20 @@
+{
+    "homepage": "https://dhall-lang.org/",
+    "description": "Dhall is a programmable configuration language that you can think of as: JSON + functions + types + import",
+    "license": {
+        "identifier": "Creative Commons Attribution 4.0 International License",
+        "url": "http://creativecommons.org/licenses/by/4.0/"
+    },
+    "version": "1.25.0",
+    "url": "https://gkantsidissoftware.blob.core.windows.net/scoop/dhall-1.25.0-windows64.zip",
+    "hash": "8E9FEC731DA92B1B5CB0A67D5BF0297E35795B6941645987AB96948D8CAF7AA4",
+    "bin": [
+        "dhall-lsp-server.exe",
+        "dhall-to-bash.exe",
+        "dhall-to-json.exe",
+        "dhall-to-yaml.exe",
+        "dhall.exe",
+        "json-to-dhall.exe",
+        "yaml-to-dhall.exe"
+    ]
+}
