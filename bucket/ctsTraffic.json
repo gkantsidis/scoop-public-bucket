@@ -9,11 +9,11 @@
     "architecture": {
         "64bit": {
             "url": "https://gkantsidissoftware.blob.core.windows.net/scoop/ctsTraffic-2.0.2.6-x64.zip",
-            "hash": "304B03A12EB63582CC0B0FBA6F44F68EE66771D251199F92DE00F7BE722A4471"
+            "hash": "113A91D2420D73D07D94BAD93774FBC1313DB94C6785883DF7B2EB73D2F0AF5E"
         },
         "32bit": {
             "url": "https://gkantsidissoftware.blob.core.windows.net/scoop/ctsTraffic-2.0.2.6-x86.zip",
-            "hash": "316F99F3213966235A134AF6C2786FC48E6FF0002A802224E912DDF43AB11101"
+            "hash": "540BBB2943EB17A2573DC6245D577B515FDA711C1215D793C2566FEBEB48F3D7"
         }
     },
     "bin": [
