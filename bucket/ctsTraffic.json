@@ -1,0 +1,33 @@
+{
+    "homepage": "https://github.com/Microsoft/ctsTraffic",
+    "description": "ctsTraffic is a highly scalable client/server networking tool giving detailed performance and reliability analytics",
+    "license": {
+        "identifier": "Apache License 2.0",
+        "url": "https://raw.githubusercontent.com/microsoft/ctsTraffic/master/LICENSE"
+    },
+    "version": "2.0.2.6",
+    "architecture": {
+        "64bit": {
+            "url": "https://gkantsidissoftware.blob.core.windows.net/scoop/ctsTraffic-2.0.2.6-x64.zip",
+            "hash": "304B03A12EB63582CC0B0FBA6F44F68EE66771D251199F92DE00F7BE722A4471"
+        },
+        "32bit": {
+            "url": "https://gkantsidissoftware.blob.core.windows.net/scoop/ctsTraffic-2.0.2.6-x86.zip",
+            "hash": "316F99F3213966235A134AF6C2786FC48E6FF0002A802224E912DDF43AB11101"
+        }
+    },
+    "bin": [
+        "ctsPerf.exe",
+        "ctsTraffic.exe"
+    ],
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://gkantsidissoftware.blob.core.windows.net/scoop/ctsTraffic-$version-x64.zip"
+            },
+            "32bit": {
+                "url": "https://gkantsidissoftware.blob.core.windows.net/scoop/ctsTraffic-$version-x86.zip"
+            }
+        }
+    }
+}
