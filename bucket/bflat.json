@@ -8,7 +8,6 @@
     "version": "7.0.2",
     "url": "https://github.com/bflattened/bflat/releases/download/v7.0.2/bflat-7.0.2-windows-x64.zip",
     "hash": "e3f74782f2707b5df199820811d2cb3b317fd76714e2e0d856363263920d9934",
-    "extract_dir": "bflat-7.0.2-windows-x64",
     "bin": [
         "bflat.exe"
     ]
