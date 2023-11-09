@@ -22,6 +22,9 @@
         "bin\\soplex.exe",
         "bin\\fscip.exe"
     ],
+    "env_set": {
+        "SCIPOPTDIR": "$dir"
+    }
     "autoupdate": {
         "architecture": {
             "64bit": {
