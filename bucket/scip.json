@@ -1,0 +1,35 @@
+{
+    "homepage": "https://scipopt.org/",
+    "description": "SCIP is one of the fastest non-commercial solvers for mixed integer programming (MIP) and mixed integer nonlinear programming (MINLP)",
+    "license": {
+        "identifier": "Apache License 2.0",
+        "url": "https://www.scipopt.org/index.php#license"
+    },
+    "version": "8.0.4",
+    "architecture": {
+        "64bit": {
+            "url": "https://gkantsidissoftware.blob.core.windows.net/scoop/SCIPOptSuite-8.0.4-win64-VS15.zip",
+            "hash": "78FFE83DDA1F159FBC4077353436C792884EA129D2A28377EB455E3D459349DE"
+        },
+        "32bit": {
+            "url": "https://gkantsidissoftware.blob.core.windows.net/scoop/SCIPOptSuite-8.0.4-win32-VS15.zip",
+            "hash": "C6E3E9DFA4E96A2618C8F9CD3AD2F24951A30CE8F758E70C193DF5D2755FD4F2"
+        }
+    },
+    "bin": [
+        "bin/scip.exe",
+        "bin/zimpl.exe",
+        "bin/soplex.exe",
+        "bin/fscip.exe"
+    ],
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://gkantsidissoftware.blob.core.windows.net/scoop/SCIPOptSuite-$version-win64-VS15.zip"
+            },
+            "32bit": {
+                "url": "https://gkantsidissoftware.blob.core.windows.net/scoop/SCIPOptSuite-$version-win32-VS15.zip"
+            }
+        }
+    }
+}
