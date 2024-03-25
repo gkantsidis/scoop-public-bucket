@@ -5,10 +5,10 @@
         "identifier": "End User License Agreement for the Intel(R) Software Development Products",
         "url": "https://software.intel.com/en-us/articles/end-user-license-agreement"
     },
-    "version": "3.11",
-    "url": "https://software.intel.com/sites/landingpage/pintool/downloads/pin-3.11-97998-g7ecce2dac-msvc-windows.zip",
-    "hash": "0F485FEEDE33E157BAB50D2CED51803363B4803968B84AC75383DEFD80E86EEB",
-    "extract_dir": "pin-3.11-97998-g7ecce2dac-msvc-windows",
+    "version": "3.30",
+    "url": "https://software.intel.com/sites/landingpage/pintool/downloads/pin-3.30-98830-g1d7b601b3-msvc-windows.zip",
+    "hash": "49E06C2819E42C0AD04D973EE92595BD8C5AB7D36CFCB706D9E0E415009C8535",
+    "extract_dir": "pin-3.30-98830-g1d7b601b3-msvc-windows",
     "bin": [
         "pin.exe",
         "vsdbg.bat"
